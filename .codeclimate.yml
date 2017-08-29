@@ -5,6 +5,9 @@ engines:
   duplication:
     enabled: true
     channel: java
+    config:
+      languages:
+        - java
 exclude_paths:
   - "**.js"
   - "**.jsx"
