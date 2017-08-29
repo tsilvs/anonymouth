@@ -2,6 +2,9 @@ engines:
   structure:
     enabled: true
     channel: java
+  duplication:
+    enabled: true
+    channel: java
 exclude_paths:
   - "**.js"
   - "**.jsx"
