@@ -177,7 +177,7 @@ ui						-
 ---------------------LICENSE------------------------
 ====================================================
 
-License:
+License V2:
 
 JStylo was released by the Privacy, Security and
 Automation lab at Drexel University in 2011 under
