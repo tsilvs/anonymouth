@@ -10,6 +10,7 @@ Drexel University, Philadelphia PA<br>
 
 
 #Index
+
 1. Set Up
 	- [Introduction](#introduction)
 	- [Dependencies](#dependencies)
