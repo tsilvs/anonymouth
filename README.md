@@ -10,7 +10,6 @@ Drexel University, Philadelphia PA<br>
 
 
 #Index
-
 1. Set Up
 	- [Introduction](#introduction)
 	- [Dependencies](#dependencies)
@@ -26,6 +25,8 @@ Drexel University, Philadelphia PA<br>
 	- [License](#license)
 
 #Set Up
+
+## Update 1
 
 ###<a id="introduction"></a>Introduction
 
