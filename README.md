@@ -20,7 +20,7 @@ Drexel University, Philadelphia PA<br>
 	- [Basic Class Strucutre](#basic-class-structure)
 	- [To Do List](#to-do-list)
 	- [Known Bugs](#known-bugs)
-3. Credits
+4. Credits
 	- [Developers](#developers)
 	- [License](#license)
 
