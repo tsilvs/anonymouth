@@ -1,4 +1,4 @@
-#<a id="top"></a>Anonymouth
+# <a id="top"></a>Anonymouth
 
 ![](src/edu/drexel/psal/resources/graphics/readme_Logo.png)
 
@@ -9,7 +9,7 @@ Drexel University, Philadelphia PA<br>
 <http://psal.cs.drexel.edu/>
 
 
-#Index
+# Index
 1. Set Up
 	- [Introduction](#introduction)
 	- [Dependencies](#dependencies)
@@ -24,11 +24,11 @@ Drexel University, Philadelphia PA<br>
 	- [Developers](#developers)
 	- [License](#license)
 
-#Set Up
+# Set Up
 
 ## Update 9
 
-###<a id="introduction"></a>Introduction
+### <a id="introduction"></a>Introduction
 
 Anonymouth is a Java-based application that aims to give users to tools and knowledge needed to begin anonymizing documents they have written.
 
@@ -38,7 +38,7 @@ Though Anonymouth and it's team works hard to provide you with tools to help rem
 
 [Back to top](#top)
 
-###<a id="dependencies"></a>Dependencies
+### <a id="dependencies"></a>Dependencies
 
 Java 7 is required to run Anonymouth. If you don't yet have it, get it at <a href="http://java.com/en/download/index.jsp">Oracle's website here</a> and follow the installation instructions provided there.
 
@@ -62,53 +62,26 @@ Anonymouth requires a corpus (basically a database of other authors and document
 
 Though we included corpi, you are more than welcome to use any other corpus you may have. It is recommended to use many different combinations of authors so you can get the best posisble picture of where your document stands anonymously with respect to others.
 
-Anonymouth also needs the following jars in the lib directory (everything should already be included):
+Anonymouth also needs the following jars in the lib directory (everything should already be included)
 
-<table>
-  <tr>
-    <th>Package Name</th><th>Version</th>
-  </tr>
-  <tr>
-    <td>weka</td><td>3.7.9</td>
-  </tr>
-  <tr>
-    <td>fasttag</td><td>2.0</td>
-  </tr>
-  <tr>
-    <td>Jama</td><td>1.0.3</td>
-  </tr>
-  <tr>
-    <td>jaws</td><td>1.3</td>
-  </tr>
-  <tr>
-    <td>jcommon</td><td>1.0</td>
-  </tr>
-  <tr>
-    <td>freechart</td><td>1.0.14</td>
-  </tr>
-  <tr>
-    <td>jgaap</td><td>5.4.0</td>
-  </tr>
-  <tr>
-    <td>microsoft translator</td><td>0.6.1</td>
-  </tr>
-  <tr>
-    <td>miglayout</td><td>4.0</td>
-  </tr>
-  <tr>
-    <td>tt4j</td><td>1.0.15</td>
-  </tr>
-  <tr>
-    <td>Stanford postagger</td><td>-</td>
-  </tr>
-  <tr>
-    <td>ui</td><td>-</td>
-  </tr>
-</table>
+| Package Name | Version |
+|-|-:|
+| weka | 3.7.9 |
+| fasttag | 2.0 |
+| Jama | 1.0.3 |
+| jaws | 1.3 |
+| jcommon | 1.0 |
+| freechart | 1.0.14 |
+| jgaap | 5.4.0 |
+| microsoft translator | 0.6.1|
+| miglayout | 4.0 |
+| tt4j | 1.0.15 |
+| Stanford postagger | - |
+| ui | - |
 
 [Back to top](#top)
 
-###<a id="installation"></a>Installation
+### <a id="installation"></a>Installation
 
 There quickest and easiest way to install Anonymouth is to clone or download the zip of the <a href="https://github.com/psal/anonymouth">Anonymouth github project here</a>
 
@@ -118,7 +91,7 @@ This is currently the only ready way to compile and run Anonymouth. We will be i
 
 [Back to top](#top)
 
-###<a id="how-to-build-and-run"></a>How to Build and Run
+### <a id="how-to-build-and-run"></a>How to Build and Run
 
 Once Anonymouth is all set up in Eclipse, you need only run `ThePresident` from the package `edu.drexel.psal.anonymouth.gooie` to begin using it.
 
@@ -126,9 +99,9 @@ Please note that there are two main package categories, JStylo and Anonymouth. T
 
 [Back to top](#top)
 
-#Development
+# Development
 
-###<a id="basic-logic-flow"></a>Basic Logic Flow
+## <a id="basic-logic-flow"></a>Basic Logic Flow
 
 #####↓ ---LAUNCH---
 
@@ -173,7 +146,7 @@ The main gui window is displayed. This is also the central "hub" for Anonymouth.
 
 [Back to top](#top)
 
-###<a id="basic-class-structure"></a>Basic Class Structure
+## <a id="basic-class-structure"></a>Basic Class Structure
 
 #####---Naming Convention---
 
@@ -204,7 +177,7 @@ There are still quite a few classes that are clearly where they don't belong, so
 
 [Back to top](#top)
 
-###<a id="to-do-list"></a>To Do List
+## <a id="to-do-list"></a>To Do List
 Add features as they are conceived and ~~strikethrough~~ as they are completed ([1] means most important and [5] means relatively small and not particularly a priority at the moment)
 
 - [1] AUTOMATE AS MUCH OF THE ANONYMIZATION PROCESS AS POSSIBLE. This should be the top priority as of now, see Andrew for the plan and details.
@@ -214,7 +187,7 @@ Add features as they are conceived and ~~strikethrough~~ as they are completed (
 
 [Back to top](#top)
 
-###<a id="known-bugs"></a>Known Bugs
+## <a id="known-bugs"></a>Known Bugs
 Add bugs as they are discovered and ~~strikethrough~~ as they are completed ([1] means fatal or breaks usability and [5] means relatively small and does not have much of an impact on usability)
 
 - [1] During processing on OS X (though the problem may extend to other operating systems as well) the Stanford POS tagger is extremely prone to breaking due to a fatal threading issue which results in heap space or out of memory exceptions. This absolutely MUST be fixed.
@@ -225,9 +198,9 @@ Add bugs as they are discovered and ~~strikethrough~~ as they are completed ([1]
 
 [Back to top](#top)
 
-#Credits
+# Credits
 
-###<a id="developers"></a>Developers
+## <a id="developers"></a>Developers
 
 P.I. Dr. Rachel Greenstadt:
 
@@ -244,7 +217,7 @@ Developed by:
   
 [Back to top](#top)
 
-###<a id="license"></a>License
+## <a id="license"></a>License
 
 Anonymouth was released by the Privacy, Security and Automation lab at Drexel University in 2011 under the AGPLv3 license. A copy of this license is included with the repository/program. If for some reason it is absent, it can be viewed <a href="http://www.gnu.org/licenses/agpl.html">here</a>.
 
